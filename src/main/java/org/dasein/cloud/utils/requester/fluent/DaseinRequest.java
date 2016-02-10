@@ -177,7 +177,7 @@ public class DaseinRequest implements CompositeRequester {
      *                      DaseinDriverType.class).execute();
      * </pre>
      *
-     * @param mapper an implementation of {@link org.dasein.cloud.util.requester.ObjectMapper} interface
+     * @param mapper an implementation of {@link org.dasein.cloud.utils.requester.ObjectMapper} interface
      * @param classType the type of the expected model
      * @return an instance of the V type which should be a Dasien Core type.
      **/
