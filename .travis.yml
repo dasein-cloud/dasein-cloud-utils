@@ -12,6 +12,8 @@ after_success:
   then
     openssl aes-256-cbc -K $encrypted_25db3685a758_key -iv $encrypted_25db3685a758_iv -in deploy_key.enc -out deploy_key -d;
     mv deploy_key ~/.ssh/id_rsa;
+    git config user.email "drew.lyall@software.dell.com";
+    git config user.name "Drew Lyall";
     mvn -B -Darguments="-Dmaven.test.skip=true" release:clean release:prepare release:perform;
     fi
 notifications:
