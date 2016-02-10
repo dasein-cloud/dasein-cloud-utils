@@ -1,6 +1,8 @@
 # dasein-cloud-utils
 Home for a variety of helper and utility classes
 
+[![Build Status](https://travis-ci.org/dasein-cloud/dasein-cloud-utils.svg?branch=develop)](https://travis-ci.org/dasein-cloud/dasein-cloud-utils)
+
 *RetryPolicy usage*
 
  Utility classes for retry policies
