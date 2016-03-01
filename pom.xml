@@ -22,7 +22,7 @@
 
     <groupId>dasein-cloud</groupId>
     <artifactId>dasein-cloud-utils</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>dasein-cloud-utils</name>
@@ -54,7 +54,7 @@
         <connection>scm:git:git://github.com/dasein-cloud/dasein-cloud-utils.git</connection>
         <developerConnection>scm:git:git@github.com:dasein-cloud/dasein-cloud-utils.git</developerConnection>
         <url>http://github.com/dasein-cloud/dasein-cloud-utils</url>
-        <tag>dasein-cloud-utils-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
