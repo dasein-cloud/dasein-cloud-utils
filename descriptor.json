@@ -2,8 +2,8 @@
   "package": {
     "name": "dasein-cloud-utils", // Bintray package name
     "repo": "Dasein-Cloud", // Bintray repository name
-    "subject": "Dasein Cloud", // Bintray subject (user or organization)
-    "desc": "Helper utilities for Dasein Cloud",
+    "subject": "dasein-cloud", // Bintray subject (user or organization)
+    "desc": "Home for a variety of helper and utility classes",
     "website_url": "www.dasein.org",
     "vcs_url": "https://github.com/dasein-cloud/dasein-cloud-utils.git",
     "github_use_tag_release_notes": true,
